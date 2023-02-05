@@ -77,6 +77,10 @@ nav {
    font-weight: 400;
    text-transform: uppercase;
 }
+.subheader_btn:hover {
+   color: black;
+   background: yellow;
+}
 .promo {
    min-height: 800px;
    background: url("../img/uber_bg.png") center center/cover no-repeat;
@@ -122,4 +126,8 @@ nav {
    font-size: 18px;
    font-weight: 400;
    text-transform: uppercase;
+}
+.promo_btn:hover {
+   color: black;
+   background: yellow;
 }
