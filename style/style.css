@@ -142,6 +142,16 @@ nav {
    background-color: black;
    text-transform: uppercase;
 }
+/*.container {
+   display: flex;
+}
+.item_one {
+   display: block;
+}
+.item_two {
+   display: block;
+}*/
+/*
 .eight_cause {
    color: black;
    font-weight: 700;
@@ -151,13 +161,9 @@ nav {
    margin-top: 15px;
    text-align: center;
 }
-.columns {
-   background-color: #7dcfde;
-   padding: 50px 0;
-}
 .columns_title {
    text-align: center;
-   margin: 0 0 0 0;
+   margin: 0 0 30px 0;
 }
 .columns_row {
    display: flex;
@@ -166,7 +172,7 @@ nav {
    flex: 0 1 50%;
 }
 .columns_item {
-
+   display: flex;
 }
 .title{
    color: black;
@@ -183,9 +189,10 @@ nav {
 }
 .item_row {
    display: flex;
+   !*flex-wrap: wrap;*!
 }
 .item_image {
-   flex: 0 0 200px;
+   flex: 0 0 116px;
 }
 .item_body {
    flex: 1 1 auto;
@@ -203,19 +210,92 @@ nav {
    font-size: 15px;
    line-height: 21px;
 }
-/*
+
 .img_center {
    display: block;
-   margin: 0 auto;
+   position: absolute;
    max-width: 100%;
    height: auto;
-}
-*/
+   margin-top: 25px;
+   margin-left: 19px;
 
+}
 .circle {
    display: block;
    width: 116px;
    height: 116px;
    background: #1EACC7;
    border-radius: 50%;
+}
+*/
+.columns {
+   background-color: rgba(255, 255, 255, 0.89);
+   padding: 50px 0 20px 0;
+}
+.columns_title {
+   text-align: center;
+   margin: 0 0 30px 0;
+}
+.title{
+   color: black;
+   font-weight: 700;
+   text-transform: uppercase;
+   font-size: 38px;
+   line-height: 48px;
+   margin-top: -55px;
+   margin-bottom: 20px;
+   text-align: center;
+}
+.columns_row {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 0 -8px;
+}
+.columns_column {
+   flex: 0 1 50%;
+   margin: 0 0 30px 0;
+   padding: 0 8px;
+}
+.columns_item {
+
+}
+.item {
+
+}
+.item_row {
+display: flex;
+}
+.item_image {
+   flex: 0 0 116px;
+   width: 116px;
+   height: 116px;
+   background: #1EACC7;
+   border-radius: 50%;
+   margin-top: 11px;
+   margin-right: auto
+}
+.img_center {
+   display: block;
+   position: absolute;
+   max-width: 100%;
+   height: auto;
+   margin-top: 25px;
+   margin-left: 19px
+}
+.item_body {
+   flex: 1 1 auto;
+   padding: 0 0 0 15px;
+}
+.item_title {
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 21px;
+   margin: 0 0 13px 0;
+   color: #1EACC7;
+}
+.item_text {
+   color: black;
+   font-weight: 300;
+   font-size: 15px;
+   line-height: 21px;
 }
